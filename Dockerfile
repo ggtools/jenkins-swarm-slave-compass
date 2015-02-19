@@ -7,6 +7,6 @@ RUN apt-get update && apt-get install -y npm git bzip2 ruby ruby-dev make binuti
 RUN ln -s /usr/bin/nodejs /usr/local/bin/node
 
 RUN gem install compass
-RUN npm install -g grunt-cli bower phantomjs yo
+RUN npm install -g grunt-cli bower yo generator-jhipster
 
 USER jenkins-slave
