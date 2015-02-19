@@ -9,5 +9,4 @@ RUN ln -s /usr/bin/nodejs /usr/local/bin/node
 RUN gem install compass
 RUN npm install -g grunt-cli bower phantomjs
 
-RUN apt-get autoremove -y ruby-dev make binutils libffi-dev gcc
 USER jenkins-slave
